@@ -1,96 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mi primera web</title>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-        }
-    </style>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table style="width: 500px;">
-        <thead>
-            <tr>
-                <th>Producto</th>
-                <th>Precio</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Producto 1</td>
-                <td>Gratis</td>
-            </tr>
-            <tr>
-                <td>Producto 2</td>
-                <td>20.10$</td>
-            </tr>
-            <tr>
-                <td>Producto 3</td>
-                <td>100$</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <td></td>
-            <td>Total: 120.10$</td>
-        </tfoot>
-    </table>
-    <!-- ul es lista no ordenada -->
-    <ul>
-        <li>Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
-        <li>Elemento 4</li>
-    </ul>
-    <!-- ol es lista ordenada -->
-    <ol>
-        <li value="50">Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
-        <li>Elemento 4</li>
-        <li>
-            <ol>
-                <li style="list-style-type: lower-roman">Sub elemento 1</li>
-                <li style="list-style-type: lower-roman">Sub elemento 2</li>
-                <li style="list-style-type: lower-roman">Sub elemento 3</li>
-            </ol>
-        </li>
-    </ol>
-
-    <form action="/formulario" method="post"> <!-- El parametro action indica a donde se envia la info del form -->
-        <label for="nombre">Nombre</label> <!-- for hace referencia al id del input -->
-        <input value="Nombre por defecto" type="text" id="nombre" name="nombre" placeholder="Aquí tu nombre"/> <!-- name es el identificador usado para enviar el texto al servidor -->
-        <br> <!-- Salto de línea -->
-        <label for="apellido">Apellido</label>
-        <input value="Apellido por defecto" type="text" id="apellido" name="apellido" placeholder="Aquí tu apellido"/>
-        <br>
-        <label for="comentario">Comentario</label><br>
-        <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese comentario" name="comentario"></textarea>
-        <br>
-        <button type="button"><img src="img/Viserion.jpg" height="50">Tipo botón</button>
-        <button type="reset">Tipo reset</button>
-        <button type="submit">Tipo submit</button>
-        <button type="menu">Tipo menu</button>
-    </form>
-    <!-- Los headers son utilizados 
-    por los motores de busqueda -->
-    <h1>Mi primer heading</h1>
-    <h2>Mi segundo heading</h2>
-    <h3>Mi tercer heading</h3>
-    <h4>Mi cuarto heading</h4>
-    <h5>Mi quinto heading</h5>
-    <h6>Ringil</h6> <!-- Solo existen headers hasta h6 -->
-    <p>Esta es una etiqueta de párrafo</p>
-    <p>Otra etiqueta de párrafo</p>
-    <hr> <!-- Separador -->
-    <h2>Head lvl 2</h2>
-    <p>
-        <!-- Span identifica una parte del texto -->
-        Este texto es <span style="color: blue">mucho más largo</span>
-         y es para mostrar <br> <!-- br salta de línea -->
-        la etiqueta de span!
-    </p>
-    <a target="_blank" href="https://www.google.com.ar">Ir a google <br></a>
-    <img src="img/Viserion.jpg" height="300"/>
+    <header id="titulo">
+        <h1>Blog de Ringil</h1>
+    </header>
+    <section class="container">
+        <article class="post">
+            <h2>Título de mi post</h2>
+            <p>Descripción de mi post</p>
+            <img src="img/Viserion.jpg" width="300"/>
+            <p>Texto del artículo que hay acá y es texto de prueba. The winter is coming!</p>
+        </article>
+        <article class="post">
+            <h2>Título de mi post 2</h2>
+            <p>Descripción de mi post 2</p>
+            <img src="img/Senua.png" width="300"/>
+            <p>Texto del artículo que hay acá y es texto de prueba. Senua!</p>
+        </article>
+        <article class="post">
+            <h2>Título de mi post 3</h2>
+            <p>Descripción de mi post 3</p>
+            <img src="img/NightKing.jpg" width="300"/>
+            <p>Texto del artículo que hay acá y es texto de prueba. Night King!</p>
+        </article>
+    </section>
+    <footer>
+        <section>
+            <a href="#titulo">Ir al comienzo</a>
+            <a href="mailto:aleduran30@hotmail.com">Contactame aquí</a>
+        </section>
+        <p>Copyright 2023</p>
+    </footer>
 </body>
 </html>
