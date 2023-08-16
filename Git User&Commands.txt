@@ -14,7 +14,7 @@ git add . - Agrega todos los archivos
 git commit - Crea un snapshot de nuestro código
 git commit -m "Descripción" - Crea un commit rápido
 git log - Muestra todos los commits que hemos creado
-git log --oneline -  Muestra todos los commits que hemos creado con un numero de hash y descripción(Definida anteriormente)
+git log --oneline - Como el anterior pero mas reducido y con un unico numero hash
 git checkout NombreDeArchivo - Revierte los cambios de los archivos
 git diff NombreDeArchivo - Muestra las diferencias hechas en los archivos
 git branch - Muestra las versiones del proyecto
