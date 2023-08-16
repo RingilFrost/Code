@@ -20,5 +20,6 @@ git diff NombreDeArchivo - Muestra las diferencias hechas en los archivos
 git branch - Muestra las versiones del proyecto
 git branch Nombre - Crea una nueva version o rama del proyecto
 git checkout -b NroDeTicket/Nombre(ej. feature/nombre_de_la_feature - Cambia a otra version o rama del proyecto
+git merge NombreDeLaRamaQueQueremosTraer - Estando en la rama en la que queremos hacer la modificacion trae la modificacion de la rama NombreDeLaRamaQueQueremosTraer
 git cat NombreDeArchivo - Muestra el contenido de nuestro archivo
 
