@@ -19,5 +19,5 @@ git checkout NombreDeArchivo - Revierte los cambios de los archivos
 git diff NombreDeArchivo - Muestra las diferencias hechas en los archivos
 git branch - Muestra las versiones del proyecto
 git branch Nombre - Crea una nueva version o rama del proyecto
-git checkout Nombre - Cambia a otra version o rama del proyecto
+git checkout -b Nombre - Cambia a otra version o rama del proyecto
 
