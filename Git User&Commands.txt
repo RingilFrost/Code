@@ -11,9 +11,10 @@ git config --global user.name "Nombre" - Configura el nombre del usuario
 git status - Muestra el estado de nuestros archivos
 git add NombreDeArchivo - Agrega un archivo al staging area
 git add . - Agrega todos los archivos
-git commit - Crea un snapshot de nuestro c�digo
-git commit -m "Descripci�n" - Crea un commit r�pido
+git commit - Crea un snapshot de nuestro código
+git commit -m "Descripción" - Crea un commit rápido
 git log - Muestra todos los commits que hemos creado
+git log --oneline -  Muestra todos los commits que hemos creado con un numero de hash y descripción(Definida anteriormente)
 git checkout NombreDeArchivo - Revierte los cambios de los archivos
 git diff NombreDeArchivo - Muestra las diferencias hechas en los archivos
 git branch - Muestra las versiones del proyecto
