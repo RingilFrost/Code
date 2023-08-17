@@ -24,4 +24,5 @@ git merge NombreDeLaRamaQueQueremosTraer - Estando en la rama en la que queremos
 git cat NombreDeArchivo - Muestra el contenido de nuestro archivo
 git remote add origin https://github.com/Du5kH0r1z0n/miweb.git - Conecta Git con GitHub(La dirección depende del repositorio a donde conectamos y se muestra en las ociones al crearlo en GitHub)
 git push -u origin master - Conecta y crea el repositorio master en GitHub(Va a pedir nombre de usuario y un token que se genera en GitHub)
+git push - Una vez conectado a un repositorio este comando sube los cambios a GitHub
 
