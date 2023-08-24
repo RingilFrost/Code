@@ -8,6 +8,7 @@ pwd - Muestra en que ruta esta posicionado el terminal
 git init - Inicializa un nuevo proyecto en el directorio actual
 git config --global user.email "email@email.com" - Configura el email del usuario
 git config --global user.name "Nombre" - Configura el nombre del usuario
+git config --global core.editor "code --wait" - Configura el editor por defecto(en este caso VisualStudioCode con la opción wait
 git status - Muestra el estado de nuestros archivos
 git add NombreDeArchivo - Agrega un archivo al staging area
 git add . - Agrega todos los archivos
