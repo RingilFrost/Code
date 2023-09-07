@@ -1,6 +1,8 @@
-const array1 = new Array (4)
-const array2 = [4,2,5,1,3]
-const array3 = ['Ringil', 'Fingolfin', 'Akallabeth', 'Sauron']
+console.log('1array.js:')
+
+let array1 = new Array (4)
+let array2 = [4,2,5,1,3,11]
+let array3 = ['Ringil', 'Fingolfin', 'Akallabeth', 'Sauron']
 
 array1[0] = 'Curso de HTML'
 array1[1] = {nombre:'Ringil'}
@@ -14,12 +16,14 @@ array3[8] = 'Mordor' // Agrega un elemento en el indice establecido
 //Salida en consola
 console.log(array1)
 console.log(array1.length)
+//ATENCIÓN: sort ordena tomando el primer caracter
 console.log(array2.sort())
 console.log(array3)
 console.log(array3[array3.length-1])
 
 //Salida en web
 document.getElementById('array1').innerHTML = "array1: " + array1 + " - Lenght: " + array1.length
+//ATENCIÓN: sort ordena tomando el primer caracter
 document.getElementById('array2ordenado').innerHTML = "array2 ordenado: " +  array2.sort()
 document.getElementById('array3ultimoelemento').innerHTML = "Ultimo elemento del array3: " + array3[array3.length-1]
 document.getElementById('array3').innerHTML = "array3: " + array3

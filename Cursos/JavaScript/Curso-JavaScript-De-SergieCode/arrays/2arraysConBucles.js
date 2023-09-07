@@ -1,4 +1,6 @@
-const arrayConBucleFor = ['Ringil', 'Fingolfin', 'Akallabeth', 'Sauron']
+console.log('2arraysConBucle.js:')
+
+let arrayConBucleFor = ['Ringil', 'Fingolfin', 'Akallabeth', 'Sauron']
 
 let texto = ''
 for (let index = 0; index < arrayConBucleFor.length; index++){
