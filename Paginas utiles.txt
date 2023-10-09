@@ -1,0 +1,4 @@
+https://www.netlify.com/ -Desplegar webs y websapps
+https://firebase.google.com/ -Base de datos online
+https://iconos8.es/ -Iconos
+https://miro.com/app/dashboard/ -Diseño, ideas, etc...
