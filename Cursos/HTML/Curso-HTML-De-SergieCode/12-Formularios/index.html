@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera página web</title>
+    <link rel="shorcut icon" href="/assets/img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <h1>Formularios:</h1>
+
+    <hr>
+
+    <form action="envio.php" method="POST" target="_blank">
+        <label for="usuario">Usuario: </label>
+        <input type="text" id="usuario" name="usuario" value="Ringil" readonly placeholder="Escribe aquí tu usuario" maxlength="10" minlength="4" pattern="[A-Za-z]{9}"/>
+
+        <br>
+
+        <label for="password">Contraseña: </label>
+        <input type="password" id="password" name="password" placeholder="Escribe aquí tu contraseña" required/> 
+        <!-- Ojo, required puede ser hackeado desde el inspeccionador de página, por eso se maneja desde Javascript -->
+        <small>Es obligatorio este campo</small>
+
+        <br>
+
+        <input type="checkbox" name="lenguajes" value="HTML">HTML
+        <input type="checkbox" name="lenguajes" value="CSS">CSS
+        <input type="checkbox" name="lenguajes" value="JAVASCRIPT">JAVASCRIPT
+        <input type="checkbox" name="lenguajes" value="REACT">REACT
+        
+        <br>
+
+        <input type="radio" name="lenguajes" value="HTML">HTML
+        <input type="radio" name="lenguajes" value="CSS">CSS
+        <input type="radio" name="lenguajes" value="JAVASCRIPT">JAVASCRIPT
+        <input type="radio" name="lenguajes" value="REACT">REACT
+        
+        <br>
+
+        <label for="programando">Años programando: </label>
+        <input type="number" id="porgramando" name="programando" placeholder="Años progamando" max="3" min="0" required/>
+        <!-- Ojo, required puede ser hackeado desde el inspeccionador de página, por eso se maneja desde Javascript -->
+        <small>Es obligatorio este campo</small>
+
+        <br><br>
+
+        <label for="archivo">Subí tu curriculum: </label>
+        <input type="file" id="archivo" name="archivo" placeholder="file" multiple/>
+
+        <br><br>
+
+        <label for="fecha">Fecha: </label>
+        <input type="date" id="fecha" name="fecha" max="" disabled/>
+        
+        <br><br>
+
+        <label for="opinion">Escribí tu opinion: </label>
+        <textarea id="opinion" name="opinion" placeholder="Escribí tu opinión" rows="2" cols="10"></textarea>
+        
+        <br><br>
+
+        <label for="pais">Seleccioná tu país de origen: </label>
+        <select name="pais" id="pais">
+            <optgroup label="América">
+                <option value="Argentina">Argentina</option>
+                <option value="México" selected="selected">México</option>
+                <option value="Uruguay">Uruguay</option>
+            </optgroup>
+            
+            <optgroup label="Europa">
+                <option value="Francia">Francia</option>
+                <option value="Croacia">Croacia</option>
+                <option value="España">España</option>
+            </optgroup>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Enviar tus datos"/>
+        <input type="reset" value="Resetea el formulario"/>
+
+        <br><br>
+
+        <input type="button" onclick="alert('Suscribite a mi canal')" value="Saludando">
+        
+        <br>
+        
+        <button onclick="alert('Suscribite a mi canal')">Hazme click!</button>
+        
+    </form>
+</body>
+
+</html>
