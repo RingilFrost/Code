@@ -12,16 +12,21 @@
     <h1>Formularios:</h1>
 
     <hr>
-
+    <!-- Ojo!, las validaciones para password, email, etc se hacen en Javascript en el frontend y backend -->
     <form action="envio.php" method="POST" target="_blank">
         <label for="usuario">Usuario: </label>
         <input type="text" id="usuario" name="usuario" value="Ringil" readonly placeholder="Escribe aquí tu usuario" maxlength="10" minlength="4" pattern="[A-Za-z]{9}"/>
+        <small>Es obligatorio este campo</small>
+
+        <br>
+
+        <label for="mail">Mail: </label>
+        <input type="email" id="mail" name="mail" placeholder="Escribe aquí tu email" required/>
 
         <br>
 
         <label for="password">Contraseña: </label>
         <input type="password" id="password" name="password" placeholder="Escribe aquí tu contraseña" required/> 
-        <!-- Ojo, required puede ser hackeado desde el inspeccionador de página, por eso se maneja desde Javascript -->
         <small>Es obligatorio este campo</small>
 
         <br>
