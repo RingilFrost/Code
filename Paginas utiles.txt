@@ -1,6 +1,7 @@
 https://www.netlify.com/ -Desplegar webs y websapps
 https://firebase.google.com/ -Base de datos online
 https://iconos8.es/ -Iconos
+https://www.svgrepo.com/ -Imagenes SVG
 https://miro.com/app/dashboard/ -Diseño, ideas, etc...
 https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyhook -Python Extension Packages
 https://roadmap.sh/ - Developer roadmaps
