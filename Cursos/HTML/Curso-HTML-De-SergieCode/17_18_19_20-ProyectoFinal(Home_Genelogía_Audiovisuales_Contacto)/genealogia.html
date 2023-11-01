@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto final del Curso HTML de SergieCode</title>
+    <link rel="shorcut icon" href="/snowflake.png" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: rgb(133, 190, 255);
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #294463;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: rgb(147, 226, 255);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #005f9b;
+        }
+
+        .active {
+            background-color: #3d9bce;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        hr {
+            height: 1.5px;
+            background-color: #bef6ff;
+            border: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            letter-spacing: 0.2px;
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        th {
+            /* border: 1px solid rgb(190, 190, 190); */
+            padding: 2px 2px;
+            font-size: 1rem;
+        }
+
+        tr {
+            /* border: 1px solid rgb(190, 190, 190); */
+            padding: 5px 5px;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        td {
+            /* border: 1px solid rgb(190, 190, 190); */
+            padding: 8px 8px;
+            font-size: 1rem;
+        }
+
+        .nombres_masculinos {
+            font-size: 1rem;
+            background-color: rgb(244, 214, 153);
+            color: rgb(0, 119, 255);
+            padding: 8px 10px;
+            border-right: 5px solid rgb(133, 190, 255);
+            border-left: 5px solid rgb(133, 190, 255);
+        }
+
+        .nombres_femeninos {
+            font-size: 1rem;
+            background-color: rgb(244, 214, 153);
+            color: rgb(255, 99, 226);
+            padding: 8px 10px;
+            border-right: 5px solid rgb(133, 190, 255);
+            border-left: 5px solid rgb(133, 190, 255);
+        }
+
+        .borde_bajo_nombre {
+            border-bottom: 3.5px solid rgb(138, 112, 47);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Fingolfin</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="genealogia.html">Genealogia</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px;">Casa de Fingolfin <img src="assets/img/HouseOfFingilfin.png" alt="HouseOfFingilfin"
+            width="4%" height="4%"></h2>
+    <hr>
+
+    <div class="container">
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td class="nombres_masculinos" colspan="2" align="center">Finwë</td>
+                <td class="nombres_femeninos" colspan="2" align="center">Indis</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr style="height: 35px;">
+                <td></td>
+                <td></td>
+                <td style="border-bottom: 3.55px solid rgb(138, 112, 47);"></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47);border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td style="border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td style="border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td style="border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td style="border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td style="border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td style="border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47);"></td>
+                <td></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47);"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47);"></td>
+                <td></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47);"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="nombres_femeninos" colspan="2" align="center">Findis</td>
+                <td class="nombres_masculinos" colspan="2" align="center">Fingolfin</td>
+                <td class="nombres_femeninos" colspan="2" align="center">Anairë</td>
+                <td class="nombres_femeninos" colspan="2" align="center">Irimë</td>
+                <td class="nombres_masculinos" colspan="2" align="center">Finarfin</td>
+                <td></td>
+            </tr>
+            <tr style="height: 35px;">
+                <td></td>
+                <td></td>
+                <td style="border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td style="border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47); border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td style="border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td style="border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td style="border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td style="border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td style="border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td style="border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td style="border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47);"></td>
+                <td></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47);"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47);"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47);"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="nombres_masculinos" colspan="2" align="center">Fingon</td>
+                <td class="nombres_masculinos" colspan="2" align="center">Turgon</td>
+                <td class="nombres_femeninos" colspan="2" align="center">Elenwë</td>
+                <td class="nombres_femeninos" colspan="2" align="center">Aredhel</td>
+                <td class="nombres_masculinos" colspan="2" align="center">Eöl</td>
+                <td class="nombres_masculinos" colspan="2" align="center">Argon</td>
+            </tr>
+            <tr style="height: 20px;">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47);"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47);"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47);"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47);"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="nombres_femeninos" colspan="2" align="center">Idril</td>
+                <td class="nombres_masculinos" colspan="2" align="center">Tuor</td>
+                <td class="nombres_masculinos" colspan="2" align="center">Maeglin</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47);"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47);"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="nombres_masculinos" colspan="2" align="center">Eärendil</td>
+                <td class="nombres_femeninos" colspan="2" align="center">Elwing</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr style="height: 35px;">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47); border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+                <td style="border-bottom: 3.5px solid rgb(138, 112, 47);"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47);"></td>
+                <td></td>
+                <td style="border-right: 3.5px solid rgb(138, 112, 47);"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="nombres_masculinos" colspan="2" align="center">Elrond</td>
+                <td class="nombres_masculinos" colspan="2" align="center">Elros</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <footer class="footer" style="margin: 5px;">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+
+</body>
+
+</html>

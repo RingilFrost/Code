@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto final del Curso HTML de SergieCode</title>
+    <link rel="shorcut icon" href="/snowflake.png" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(133, 190, 255), rgb(51, 113, 207));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #294463;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: rgb(147, 226, 255);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #005f9b;
+        }
+
+        .active {
+            background-color: #3d9bce;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        hr {
+            height: 1.5px;
+            background-color: #bef6ff;
+            border: none;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #87b8dc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #a7e6ff;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: max-content;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Fingolfin</h1>
+        <nav> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="genealogia.html">Genealogia</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="centrado">
+        <video src="assets/video/Fingolfin.mp4" controls width="50%"></video>
+    </div>
+    <div class="centrado">
+        <audio src="assets/audio/Heilung-Anoana.mp3" controls></audio>
+    </div>
+    
+    <section class="centrado">
+        <div class="gallery">
+            <a href="assets/img/Fingolfin1.jpg" target="_blank"><img src="assets/img/Fingolfin1.jpg" alt="Fingolfin1"></a>
+            <div class="desc">Fingolfin 1</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/Fingolfin2.jpg" target="_blank"><img src="assets/img/Fingolfin2.jpg" alt="Fingolfin2"></a>
+            <div class="desc">Fingolfin 2</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/Ringil.jpg" target="_blank"><img src="assets/img/Ringil.jpg" alt="Fingolfin1"></a>
+            <div class="desc">Ringil</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/Fingolfin and Morgoth.jpg" target="_blank"><img src="assets/img/Fingolfin and Morgoth.jpg" alt="FingolfinMorgoth"></a>
+            <div class="desc">Fingolfin & Morgoth</div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+
+</body>
+
+</html>
