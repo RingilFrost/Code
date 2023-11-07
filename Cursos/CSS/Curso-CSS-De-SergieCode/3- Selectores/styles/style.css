@@ -1,0 +1,54 @@
+/* *{
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    background-color: black;
+    color: white;
+}
+
+h3,h4{
+    background-color: rgb(165, 221, 255);
+    color: rgb(0, 119, 255);
+}
+
+/* id */
+#ejemploId{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+/* class */
+.seccion1{
+    background-color: bisque;
+}
+
+.seccion2{
+    background-color: rgb(185, 148, 231);
+}
+
+/* Selectores combinados */
+p.seccion3{
+    background-color: black;
+    color: rgb(255, 226, 35);
+}
+
+p#parrafoSeleccionado{
+    color: rgb(104, 227, 153);
+}
+
+/* Segunda clase */
+.otraClase{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.seccion3.otraClase{
+    text-align: center;
+    color: red;
+}
