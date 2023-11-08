@@ -1,0 +1,9 @@
+h1{
+    background-color: coral; 
+    background-color: #75b9f4;  /* Hexadecimal */
+    background-color: #75b9f477;  /* Hexadecimal con alpha */
+    background-color: rgb(174, 207, 116);  /* RGB */
+    background-color: rgba(174, 207, 116, 0.438);  /* RGB con alpha */
+    background-color: hsl(0, 100%, 50%);  /* HSL */
+    background-color: hsla(0, 100%, 50%, 0.5)  /* HSL con alpha */
+}
