@@ -1,0 +1,53 @@
+b.dotted{
+    border: 3px dotted orange;
+}
+
+p.dashed{
+    border-style: dashed;
+}
+
+b.solid{
+    font-size: x-large;
+
+    border-style: solid;
+    border-color: rgb(21, 255, 0);
+    border-radius: 7px;
+}
+
+p.double{
+    border-style: double;
+    border-color: rgb(0, 119, 255);
+    border-width: 5px;
+}
+
+p.groove{
+    border-style: groove;
+}
+
+b.ridge{
+    border-style: ridge;
+}
+
+b.inset{
+    border-style: inset;
+    border-color: rgb(0, 255, 174);
+    border-width: 5px;
+}
+
+p.outset{
+    border-style: outset;
+}
+
+p.none{
+    border-style: none;
+}
+
+p.hidden{
+    border-style: hidden;
+}
+
+p.mix{
+    border-style: dotted dashed groove ridge;
+    border-color: rgb(255, 85, 0);
+    border-width: 3px;
+}
