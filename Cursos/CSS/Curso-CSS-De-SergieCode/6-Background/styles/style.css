@@ -1,0 +1,14 @@
+body{
+    background: rgb(145, 209, 255);
+    background: linear-gradient(90deg, #fff 10%, green 20%, rgb(151, 77, 248) 30%, blue 100%);
+    background-image: url(/assets/img/norse_wood.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;  /*El texto se mueve pero el fondo no*/
+
+    background: black url(/assets/img/norse_wood.jpg) no-repeat fixed;
+}
+
+p{
+    color:rgba(197, 228, 255, 0.279) ;
+}
