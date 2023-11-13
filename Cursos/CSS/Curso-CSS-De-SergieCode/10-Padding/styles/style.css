@@ -1,0 +1,11 @@
+.cajita1{
+    border: 2px solid black;
+    background-color: aquamarine;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    /* padding: 30px; En todos los lados*/
+    /* padding: 30px 15px; Arriba/abajo izquierda/derecha */
+    /* padding: 30px 15px 10px 5px; Arriba, derecha, abajo, izquierda */
+}
