@@ -1,0 +1,26 @@
+.cajita1{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    background-color: blue;
+    margin-bottom: 30px;
+}
+
+.cajita2{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    background-color: red;
+    margin-left: 30px;
+    /* margin: 10px; Margen de 10px en todos los lados*/
+    /* margin: 10px 30px; Margen de 10px arriba/abajo y 30px derecha/izquierda*/
+    /* margin: 10px 30px 50px 100px; Margen arriba, derecha, abajo, izquierda*/
+}
+
+.cajita3{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    background-color: green;
+    margin-top: 30px;
+}
