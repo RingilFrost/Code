@@ -1,0 +1,31 @@
+.cajitaAzul{
+    border: 2px solid black;
+    background-color: blue;
+    color: white;
+    height: 500px;
+    width: 500px;
+}
+
+.cajitaVioleta{
+    border: 2px solid black;
+    background-color: rgb(131, 6, 240);
+    color: white;
+    min-height: 100px;
+    max-width: 100px;
+}
+
+.cajita2{
+    border: 2px solid black;
+    background-color: red;
+    color: white;
+    max-height: 100px;
+    width: 100px;
+}
+
+.cajita3{
+    border: 2px solid black;
+    background-color: green;
+    color: white;
+    min-height: 100px;
+    width: 100px;
+}
