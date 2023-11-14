@@ -1,0 +1,51 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+ h2{
+    color: green;
+    text-align: center;
+}
+
+ p.lorem1{
+    color: darkred;
+    text-align: justify;
+ }
+
+ b, i{
+    color: black;
+}
+
+.con_overline{
+    text-decoration-line: overline;
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+}
+
+.con_line-through{
+    text-decoration-line: line-through;
+    text-decoration-color: blue;
+    text-decoration-style: double;
+}
+
+.con_underline{
+    text-decoration: underline green wavy 3px;
+}
+
+p.transformado{
+    text-transform: uppercase;
+}
+
+p.lorem2{
+    text-indent: 50px;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    word-spacing: 10px;
+    /* white-space: nowrap; /* No está atrapado en la caja del elemento padre */
+}
+
+p.sombra{
+    /* text-shadow: 2px 10px 3px red; derecha, abajo, blur, color */
+    /* text-shadow: 1px 1px 5px rgb(23, 90, 236); */
+    text-shadow: 1px 1px 15px rgb(23, 90, 236), 1px 5px 5px black, 2px 10px 2px rgb(183, 0, 255) ;
+}
