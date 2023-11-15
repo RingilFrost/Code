@@ -1,0 +1,12 @@
+p.con_estilo_1{
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1em;
+    font-size: 3vw;
+}
+
+p.lorem{
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+}
