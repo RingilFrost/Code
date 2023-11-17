@@ -1,0 +1,36 @@
+tr,td{
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table,th{
+    border: 2px solid black;
+}
+
+.primeraColumna{
+    border: 2px solid black;
+}
+
+th{
+    height: 50px;
+    background-color: gray;
+}
+
+/* Columnas pares */
+tr:nth-child(even){
+    background-color: aquamarine;
+}
+
+/* Columnas impares */
+tr:nth-child(odd){
+    background-color: lightskyblue;
+}
+
+tr:hover{
+    background-color: lightcoral;
+}
