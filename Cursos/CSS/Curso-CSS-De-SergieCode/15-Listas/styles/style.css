@@ -1,0 +1,13 @@
+ul{
+    /* list-style-type: circle; */
+    /* list-style-image: url(/assets/img/icons8-frost-48.png); */
+    background-color: black;
+    padding: 20px;
+}
+
+li{
+    color: white;
+    background-color: grey;
+    padding: 5px;
+    margin: 10px;
+}
