@@ -1,0 +1,62 @@
+/* .container{
+    position: static;
+    border: 2px solid green;
+} */
+
+/* ------------------------------------------------------------------ */
+
+/* .container{
+    position: relative;
+    border: 2px solid green;
+    left: 35px;
+}
+
+.parrafo{
+    position: relative;
+    bottom: 15px;
+} */
+
+/* ------------------------------------------------------------------ */
+/* Queda "flotando" en el documento */
+/* .container{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 2px solid green;
+} */
+
+/* ------------------------------------------------------------------ */
+/* Se superpone a los otros elementos y queda pegado al documento */
+/* .container{
+    position: absolute;
+    border: 2px solid green;
+} */
+
+/* ------------------------------------------------------------------ */
+/* Es una mezcla entre relative y fixed */
+/* Se queda "pegado" en la posicion establecida */
+.container{
+    background-color: red;
+    position: sticky;
+    top: 50px;
+    border: 2px solid green;
+}
+
+.imgContainer{
+    position: relative;
+    width: 700px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.imgText{
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    text-align: center;
+    font-size: 110%;
+    color: rgb(198, 198, 198);
+}
