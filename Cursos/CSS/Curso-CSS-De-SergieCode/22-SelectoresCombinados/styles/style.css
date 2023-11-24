@@ -1,0 +1,18 @@
+/* div p {
+    background-color: yellow;
+} */
+
+/* Child selector */
+/* div>p {
+    background-color: yellow;
+} */
+
+/* Selector de primer hermano adyacente */
+/* div+p{
+    background-color: yellow;
+} */
+
+/* Selector de todos los hermanos */
+div~p{
+    background-color: yellow;
+}
