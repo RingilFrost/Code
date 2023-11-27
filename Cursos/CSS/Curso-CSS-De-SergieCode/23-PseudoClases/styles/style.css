@@ -1,0 +1,38 @@
+/* elemento:seudoelemento{
+    propiedad: valor
+} */
+
+a.primerosLinks:link{
+    background-color: yellow;
+}
+
+a.primerosLinks:visited{
+    background-color: aqua;
+}
+
+a.primerosLinks:hover{
+    color: green;
+    background-color: aquamarine;
+}
+
+a.primerosLinks:active{
+    background-color: blue;
+}
+
+p.oculto{
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+div.hoverExample:hover p{
+    display: block;
+}
+
+div.firstChildExample > p:first-child{
+    background-color: lightblue;
+}
+
+input:focus{
+    background-color: aqua;
+}
