@@ -1,0 +1,30 @@
+/* selector::pseudoElemento{
+    propiedad:valor
+} */
+
+h1::before{
+    content: url(/aasets/img/icons8-copo-de-nieve-48.png);
+}
+
+h1::after{
+    content: url(/aasets/img/icons8-copo-de-nieve-48.png);
+}
+
+::marker{
+    color: red;
+    font-size: 2em;
+}
+
+::selection{
+    background-color: black;
+    color: lightskyblue;
+}
+
+p.lorem1::first-letter{
+    color: red;
+    font-size: 4em;
+}
+
+p.lorem1::first-line{
+    color: green;
+}
