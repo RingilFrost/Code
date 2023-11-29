@@ -1,0 +1,33 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(84, 84, 84);
+}
+
+li{
+    float: left;
+    border-right: 1px solid lightblue;
+}
+
+li:last-child{
+    border-right: none;
+    border-left: 1px solid lightblue;
+}
+
+li a{
+    display: block;
+    color: snow;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.active{
+    background-color: coral;
+}
+
+li a:hover:not(.active){
+    background-color: rgb(214, 93, 60);
+}
