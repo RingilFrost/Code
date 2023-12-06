@@ -1,0 +1,36 @@
+.contenedor{
+    overflow: auto;
+}
+
+.leftside{
+    float: none;
+    width: auto;
+}
+
+.texto{
+    position: absolute;
+    top: 0;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media(min-width:545px){
+    .leftside{
+        float: left;
+        width: 300;
+    }
+
+    img{
+        width: 300px;
+    }
+    
+    .texto{
+        position: static;
+    }
+}
+
+@media (max-height:500px) and (max-width:900px){
+    body{
+        background-color: black;
+    }
+}
