@@ -1,0 +1,18 @@
+.grid-container{
+    display: grid;
+    background-color: aquamarine;
+    /* grid-template-columns: 150px auto 22%;
+    grid-template-rows: repeat(3, 150px); */
+    grid-template-columns: 200px 120px 200px;
+    grid-template-rows: 200px 120px 200px;
+    /* justify-items: center; */
+    /* justify-content: space-around; */
+    grid-auto-flow: column; /*Cambia la dirección del contenido*/
+}
+
+.grid-container > div{
+    background-color: darkgreen;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+}
